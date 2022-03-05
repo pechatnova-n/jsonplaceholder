@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("best slider"),console.log("best 1111slider")})();
+(()=>{"use strict";fetch("db.json").then((o=>o.json())).then((o=>{var c;console.log(o),c=o,fetch("https://jsonplaceholder.typicode.com/posts",{method:"POST",body:JSON.stringify(c)}).then((o=>{console.log("Данные успешно отправлены")})).catch((o=>{console.log(o),console.log("Данные НЕ отправлены, ошибка")}))})).catch((o=>{console.log(o),console.log("Данные НЕ были получены, ошибка")}))})();

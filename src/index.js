@@ -1,5 +1,4 @@
-import burgerModule from "./modules/burger";
-import sliderModule from "./modules/slider";
 
-burgerModule();
-sliderModule();
+import promiseModule from "./modules/promiseModule";
+
+promiseModule();
